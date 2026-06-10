@@ -1,3 +1,19 @@
+"""
+LeetCode 49 - Group Anagrams
+
+Approach:
+- Sort each word.
+- Use sorted word as hashmap key.
+- Group words with same sorted form.
+
+Time: O(n * k log k)
+Space: O(n * k)
+
+where:
+n = number of strings
+k = average string length
+"""
+
 from typing import List
 
 def group_anagrams(words: List[str]) -> List[List[str]]:
