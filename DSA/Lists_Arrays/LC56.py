@@ -1,3 +1,7 @@
+# Leetcode 56 - Merge Intervals
+# Given a nested list with each element being an interval list.
+# if numbers from the intervals overlap, merge them into a single interval list.
+
 def mergeIntervals(intervals):
     intervals.sort()
     
