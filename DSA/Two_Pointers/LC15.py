@@ -38,3 +38,5 @@ def threeSum(nums):
 
 nums = [-1, 2, -2, 0, 1, -4, 2]
 print(threeSum(nums))
+nums = [-1, 1, 0, 2, -2, 0, 2, 2, -4]
+print(threeSum(nums))
