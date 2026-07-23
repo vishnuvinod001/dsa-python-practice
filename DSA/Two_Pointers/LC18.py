@@ -42,3 +42,7 @@ def fourSum(nums, target):
 nums = [1, 2, 3, 4, 0, 0, 0, 5, 6, 2]
 target = 8
 print(fourSum(nums, target))
+
+nums = [1,2,3,4,5,6,7,0,0,0,0,0]
+target = 8
+print(fourSum(nums, target))
