@@ -21,3 +21,8 @@ def coinChange(coins, amount):
                 dp[amt] = min(dp[amt], 1 + dp[amt - coin])
     
     return dp[amount] if dp[amount] != float('inf') else -1
+
+coins = [1,2,5]
+amount = 11
+
+print(coinChange(coins, amount)) # Output : 3
