@@ -26,3 +26,11 @@ coins = [1,2,5]
 amount = 11
 
 print(coinChange(coins, amount)) # Output : 3
+
+coins = [2]
+amount = 3
+print(coinChange(coins, amount)) # Output : -1
+
+coins = [1]
+amount = 0
+print(coinChange(coins, amount)) # Output : 0
