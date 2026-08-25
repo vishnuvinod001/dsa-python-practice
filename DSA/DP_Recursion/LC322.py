@@ -18,7 +18,7 @@ def coinChange(coins, amount):
     for amt in range(1, amount + 1):
         for coin in coins:
             if amt - coin >= 0:
-                dp[amt] = min(dp[amt], 1 + dp[amt - coin])
+                dp[amt] = min(dp[amt], 1 + dp[amt - coin])  # Multiple ways to make the amount, we take the minimum number of coins needed
     
     return dp[amount] if dp[amount] != float('inf') else -1
 
